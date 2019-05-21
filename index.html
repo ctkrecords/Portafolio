@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-	    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Portafolio</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </head>
 
-    <body>
-        
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <header class="fondo">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-lg-right justify-content-md-right justify-content-sm-center"
+                id="menuPrincipal">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Opción 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Opción 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Opción 3</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="#">
+                    <p>Acá debe ir el logo xd</p>
+            </a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h2>Bienvenidos a mi Portafolio de Bitlab</h2>
+        <p>En este pequeño portafolio encontrarás parte de las tareas que realice en el curso de Introducción a la Programación de Bitlab, además de las herramientas en las cuales se desarrollaron, entre otras cosas.</p>
+        <br>
+        <section id="contenido">
+            <h3>Proyectos</h3>
+            <br>
+            <article>
+                <h4>Formulario no funcional de inscripciones a la NASA</h4>
+                <img src="" alt="" class="img-fluid">
+                <p><strong>Descripción:</strong> Para esta tarea se pidió un pequeño formulario de inscripciones para ser parte de la NASA, las herramientas a utilizar para esta tarea fueron: <strong>HTML5 y CSS.</strong></p>
+            </article>
+            <article>
+                <h4>To Do List</h4>
+                <img src="" alt="" class="img-fluid">
+                <p><strong>Descripción:</strong> esta tarea se requería de un archivo html, el cual permitiera ingresar tareas pendientes por realizar, y que al finalizar con estas pudieran ser eliminadas. Herramientas utilizadas: <strong>HTML5, CSS y JavaScript.</strong></p>
+            </article>
+            <article>
+                <h4>Calculadora de propinas</h4>
+                <img src="" alt="" class="img-fluid">
+                <p><strong>Descripción: </strong>en esta tarea se pidió realizar una Calculadora de propinas, en la cual se pedia el valor a cancelar de la cuenta, el porcentaje de propina a pagar, y la cantidad de personas que cancelarán la cuenta. Herramientas utilizadas: <strong>HTML5, CSS y JavaScript.</strong></p>
+            </article>
+            <article>
+                <h4>Página web de un restaurante (no funcional)</h4>
+                <img src="" alt="" class="img-fluid">
+                <p><strong>Descripción: </strong> En esta tarea se pidió realizar una pequeña página web de cualquier restaurante, con la dificultad que debía tener la funcionalidad de envíar un mensaje de reservación a cierto correo electrónico. Herramientas utilizadas: <strong>HTML5, CSS, JavaScript, PHP y Bootstrap.</strong></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
 
 </html>

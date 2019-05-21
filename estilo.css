@@ -1,0 +1,14 @@
+.fondo{
+    background-color: #f8f9fa;
+}
+
+.main{
+    text-align: justify;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+h2, h3{
+    text-align: center;
+}
