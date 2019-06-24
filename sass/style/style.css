@@ -1,0 +1,30 @@
+body {
+  font-family: Courier New, Courier, monospace;
+}
+
+.fondo {
+  background-color: #f8f9fa;
+}
+
+.main {
+  text-align: justify;
+  padding: 2% 5% 2% 5%;
+}
+
+h2, h3, footer, .centro {
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 0.75em;
+}
+
+a link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
